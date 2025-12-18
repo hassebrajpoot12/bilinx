@@ -1,0 +1,184 @@
+.cree-mon-baner{
+    display: grid;
+    grid-template-columns: 25% 1fr 25%;
+    gap: 4rem;
+}
+.left-side-img img{
+    width: 100%;
+}
+.right-side-img img{
+    width: 100%;
+}
+.center-contenet{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 1.2rem;
+    padding: 1rem;
+}
+.center-contenet-head h1{
+    font-size: 3rem;
+    line-height: 1.5;
+    text-align: center;
+}
+.center-contenet-head span{
+    position: relative;
+}
+.center-contenet-head span::after{
+    content: "";
+    position: absolute;
+    background-image: url("/cir.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    left: -1rem;
+    top: -1rem;
+    padding: 2rem;
+}
+.offer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.offer-btn{
+    display: flex;
+    gap: 2rem;
+}
+.offer-button{
+    font-weight: 600;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: none;
+}
+.offer-btn-gree{
+    background-color: var(--border-color);
+    color: var(--btn-text);
+}
+.offer-btn-white{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: var(--btn-text);
+}
+.offer-ring{
+    position: relative;
+    color: #FF9067;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.ring-sp{
+    position: relative;
+    color: #FF9067;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.ring-sp::after{
+    content: "";
+    position: absolute;
+    background-image: url("/ring.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    top: -0.2rem;
+}
+.bottom-main{
+    line-height: 1.5;
+}
+.bottom-main h2{
+    font-size: 1.6rem;
+}
+.bottom-main span{
+    font-size: 2rem;
+    color: var(--border-color);
+    font-weight: 500;
+}
+.bottom-main p{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.bottom-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.bottom-list h3{
+    text-decoration: underline;
+}
+.bottom-list-icon {
+  list-style: none; 
+  display: flex;
+  flex-direction: column; 
+}
+
+.bottom-list-icon li {
+  background-image: url("/list-ico.png");
+  background-repeat: no-repeat;
+  background-position: left center; 
+  padding-left: 28px;
+  margin-bottom: 8px; 
+  line-height: 1.5;
+  font-size: 15px; 
+  font-weight: 400;
+}
+.bottom-para p{
+    color: var(--border-color);
+    text-decoration: underline;
+    font-size: 1.6rem;
+}
+.bottom-para img{
+    width: 2rem;
+    height: 10%;
+}
+
+/* ===================== Mini Cree Hero ============= */
+.mini-cree-container{
+    width: 100%;
+    max-width: 120rem;
+    padding-top: 9rem;
+    padding-bottom: 13rem;
+}
+.mini-cree-hero{
+   border-radius: 2rem;
+    background-color: #C9B2FF33;
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+    position: relative;
+    gap: 50rem;
+}
+.mini-hero-img img{
+    position: absolute;
+    width: 30%;
+    left: 41px;
+    top: -69px;
+    height: fit-content;
+}
+.mini-cree-hero-content{
+    display: flex;
+    flex-direction: column;
+}
+.head-mini-cree h1{
+    font-size: 2.5rem;
+}
+.mini-cree-para{
+    line-height: 3;
+}
+.mini-cree-para p{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.mini-cree-para h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.mini-btn-para{
+    padding: 1rem;
+    background-color: var(--border-color);
+    border: none;
+    border-radius: 2rem;
+    color: var(--btn-text);
+}

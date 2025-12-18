@@ -1,0 +1,152 @@
+.panda-section{
+    position: relative;
+}
+.panda-img img{
+    position: absolute;
+    top: 20%;
+}
+.panda-con-cir img{
+    position: absolute;
+    right: 0;
+}
+.panda-conatiner{
+    width: 100%;
+    max-width: 110rem;
+}
+.panda-content-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2rem;
+}
+.main-panda-head span{
+    position: relative;
+}
+.main-panda-head span::after{
+    content: "";
+    position: absolute;
+    background-image: url("/brown-line.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 0;
+    top: 2.5rem;
+}
+.pnada-content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.main-panda-head h1{
+    font-size: 2.5rem;
+}
+.panda-para-list{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.panda-para p{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.panda-list ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+}
+.panda-list li{
+    display: flex;
+    align-items: center;
+    background-image: url("/panda-list.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 30px;
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}
+.panda-paraicon p{
+    color: var(--border-color);
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.panda-btn{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 1rem;
+    background-color: var(--btn-text);
+    border-radius: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6rem;
+    font-family: "Urbanist";
+}
+.panda-btn button{
+    padding: 1rem;
+    border-radius: 3rem;
+    border: none;
+    background-color: var(--border-color);
+}
+
+/* ======================= Notre Vision Section =================== */
+    .Notre-vision-banner{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        align-items: center;
+        gap: 2rem;
+    }
+    .left-notre-vision{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .left-notre-head h1{
+        font-size: 3rem;
+    }
+    .left-notre-para p{
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+    .left-notre-head span{
+        position: relative;
+    }
+    .left-notre-head span::after{
+        content: "";
+        position: absolute;
+        width:100%;
+        height: 100%;
+        left: 0;
+        top: 3rem;
+        background-image: url("green-line.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .right-notre-vision{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .right-head h4{
+        font-size: 1.6rem;
+    }
+    .right-box{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    .right-box-para p{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .right-notre-list{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .notrevision-con{
+        padding-bottom:5rem;
+    }
