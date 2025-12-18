@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from 'react-router';
-import { Header } from './pages/header';
+import { Header } from "./pages/Header";
 import { Comptabilite } from './pages/comptabilite';
 import { Creer } from './pages/creermon';
 import { Notre } from './pages/notre';
@@ -7,7 +7,7 @@ import { Trafic } from './pages/trafix';
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Header />,  
+    element: <Header/>,       
     children: [
       { index: true, element: <Comptabilite /> },
       { path: 'comptabilite', element: <Comptabilite /> },
