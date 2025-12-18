@@ -1,4 +1,4 @@
-import "../style/Creemon.css"
+import "../style/creemon.css"
 import "../style/media-qurey.css"
 export const Creer = () => {
   return (

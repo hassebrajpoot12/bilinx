@@ -1,5 +1,5 @@
 import { NavLink, Outlet } from "react-router";
-import "../style/Header.css"
+import "../style/header.css"
 import "../style/media-qurey.css"
 import { Footer } from "./Footer";
 import { useState, useEffect, useRef } from "react";
@@ -38,7 +38,7 @@ export const Header = () => {
               <li> <NavLink to="comptabilite">Comptabilité</NavLink> </li>
               <li> <NavLink to="creermon">Créer mon entreprise</NavLink> </li>
               <li> <NavLink to="notre">Notre appli</NavLink> </li>
-              <li> <NavLink to="trafic">Tarifs</NavLink> </li>
+              <li> <NavLink to="trafix">Tarifs</NavLink> </li>
             </ul>
           </div>
           <div className="buto">

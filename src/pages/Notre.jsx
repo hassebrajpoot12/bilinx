@@ -1,4 +1,4 @@
-import "../style/Netro.css"
+import "../style/netro.css"
 export const Notre = () => {
   return (
   <>

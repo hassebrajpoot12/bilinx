@@ -1,8 +1,8 @@
 import "../style/media-qurey.css"
 import "../style/compatibilites.css"
 import { Creer } from "./creermon";
-import { Notre } from "./Notre";
-import { Trafic } from "./Trafic";
+import { Trafic } from "./trafix";
+import { Notre } from "./notre";
 export const Comptabilite = () => {
   return (
    <>
@@ -49,13 +49,11 @@ export const Comptabilite = () => {
    </section>
    <Minihero/>
    <Creer/>
+   <Trafic/>
    <Notre/>
-   <Trafic/>``
    </>
   );
 };
-
-
 export const  Minihero= () => {
   return (
    <>
